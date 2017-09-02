@@ -1,0 +1,65 @@
+body {
+      /* The background image */
+    background-image: url("liveanywhere.jpg");
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 500px;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+    
+    margin:0;
+}
+h1 {
+    margin: 0px;
+    padding-left:49.3%;
+    position: fixed;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 4px black;
+    -webkit-text-stroke: 1px lightgray; 
+text-stroke: 1px lightgray;
+
+}
+h2 {
+    margin: 0px;
+    padding-left:50%;
+    padding-top: 45px;
+    position: fixed;
+    font-style: italic;
+    color: white;
+    font-size: 90%;
+    font-family: sans-serif;
+    text-shadow:1px 1px 6px #000000;
+}
+p {
+    margin: 0px;
+    padding: 0px; 
+    color: white;
+    font-family:sans-serif;
+}
+.fixed-bg {
+    /* The background image */
+    background-image: url("liveanywhere.jpg");
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 500px;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+    top:0px;
+    text-align: center;
+}
+.list {
+background-color: rgba(0, 0, 0, 0.5);
+    top:0px;
+}
